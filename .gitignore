@@ -1,0 +1,6 @@
+# Ignore Directories
+/node_modules
+/temp
+
+# Ignore zip files
+*.zip

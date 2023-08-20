@@ -1,0 +1,23 @@
+@media (min-width: 780px) {
+    .navbar-expand-lg .navbar-collapse {
+        display:flex !important;
+        flex-basis: 100% !important;
+    }
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(font/Poppins-ExtraBold.ttf);
+}
+
+.client-font {
+    font-family: poppins;
+}
+.client-font-heading {
+    font-family: poppins;
+    font-size: 3rem;
+}
+
+section{
+    padding-top: 5.5rem;
+}

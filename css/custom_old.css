@@ -17,11 +17,44 @@
     font-family: poppins;
     font-size: 3rem;
 }
+
+/* section {
+    padding-top: 5.5rem;
+}
+
+.spacer {
+    height: 50px;
+} */
+
 /* Back to top button */
 body {
     display: grid;
     grid-template-columns: auto 0px; 
   }
+/*.top {
+    --offset: 50px; 
+    
+    position: sticky;
+    bottom: 20px;      
+    margin-right:10px; 
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+    */
+    
+    /* visual styling */
+    /*width:45px;
+    aspect-ratio:1;
+    background: #212529;
+    border-radius:10px;
+  }*/
+  /*.top:before {
+    content:"";
+    position:absolute;
+    inset:30%;
+    transform:translateY(20%) rotate(-45deg);
+    border-top:5px solid #fff;
+    border-right:5px solid #fff;
+  }*/
   
   /* remove the below if you don't want smooth scrolling */
   html,
@@ -29,30 +62,6 @@ body {
     scroll-behavior: smooth;
   }
 
-  .top {
-    --offset: 50px; 
-    
-    position: sticky;
-    bottom: 20px;      
-    margin-right:10px; 
-    place-self: end;
-    /* margin-top: calc(100vh + var(--offset)); */
-   
-    
-    /* visual styling */
-    width:45px;
-    aspect-ratio:1;
-    background: #212529;
-    border-radius:10px;
-  }
-  .top:before {
-    content:"";
-    position:absolute;
-    inset:30%;
-    transform:translateY(20%) rotate(-45deg);
-    border-top:5px solid #fff;
-    border-right:5px solid #fff;
-  }
-  section {
-    padding-top: 35px;
+  .fa-whatsapp{
+    color: #25d366;
   }
